@@ -258,6 +258,12 @@ body{
         justify-content: space-evenly;
         margin: 3% 0%;
     }
+    .section_3_920{
+        display: flex;
+    }
+    .section_3_920_2{
+        display: flex;
+    }
     .section_3_text{
         display: flex;
         position: relative;
@@ -322,7 +328,7 @@ body{
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        width: 37.2%;
+        width: 42.2%;
     }
     .section_4_tabl textarea{
         font-family: 'Rosario';
@@ -511,6 +517,7 @@ body{
         }
         .section_3_wrapper{
             display: block;
+            text-align: center;
         }
         .img_text1 img{
             width: 50%;
@@ -519,21 +526,28 @@ body{
         .section_3_text{
             display: flex;
             position: relative;
-            left: 7.8%;
-            top: 0%;
-            width: 49.5%;
+            left: 28.8%;
+            top: -29%;
+            width: 50%;
             height: 20%;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             background: rgba(163, 83, 10, 0.7);
-            border-radius: 0 0 40px 40px;
+            border-radius: 0 0 20px 20px;
             font-family: 'Volkhov';
             font-style: normal;
             font-weight: 400;
             font-size: 36px;  
             color: #E5E5E5; 
             opacity: 0; 
+            transition: 2s;
+        }
+        .section_3_wrapper:hover img{
+            filter: brightness(0.5);
+        }
+        .img_text1:hover img{
+            filter: brightness(1) !important;
         }
         .section_4{
             display: flex;
@@ -556,10 +570,10 @@ body{
             order: 2;
         }
         .section_4_tabl input{
-            width: 26%;
+            width: 32%;
         }
         .section_4_tabl textarea{
-            width: 81%;
+            width: 68%;
             margin-top: -14px;
         }
         .section_4_wrapper{
