@@ -12,10 +12,12 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
     
 }
 .logo{
     text-decoration: none;
+    background-color: #FFFCFC;
 }
 .header_text{
     background-color: black;
@@ -310,14 +312,12 @@ body{
         font-style: italic;
         font-weight: 700;
         font-size: 64px;
-        text-align: center;
         margin-left: 13%;
         display: block;
         margin-top: 5%;
     }
     .section_4_tabl{
         width: 45%;
-        text-align: center;
         margin-top: 3%;
         margin-right: 2%;
     }
@@ -337,6 +337,8 @@ body{
         font-size: 36px;
         border: 25px solid #E5E5E5;
         margin-top: -9px;
+        margin-left: -1%;
+        width: 91%;
     }
     .section_4_map{
         margin-top: -8%;
@@ -552,12 +554,13 @@ body{
         .section_4{
             display: flex;
             flex-flow: wrap;
+            margin-left: 5%;
         }
         .section_4_header{
             width: 100%;
             margin-left: 0%;
             margin-top: 0%;
-            order: ;
+            margin-bottom: 5%;
         }
         .section_4_map{
             margin-top: 0%;
@@ -570,10 +573,10 @@ body{
             order: 2;
         }
         .section_4_tabl input{
-            width: 32%;
+                width: 43.4%;
         }
         .section_4_tabl textarea{
-            width: 68%;
+            width: 91%;
             margin-top: -14px;
         }
         .section_4_wrapper{
