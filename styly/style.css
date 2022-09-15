@@ -589,7 +589,7 @@ body{
     }
     @media screen and (max-width:768px){
         .header{
-            height: 23%;
+            height: 7%;
         }
         .logo img{
             width: 100%;
@@ -626,6 +626,9 @@ body{
             border-radius: 0 0 50px 50px;
         }
         .section_3_920_2{
+            display: block;
+        }
+        .footer_1{
             display: block;
         }
     }
